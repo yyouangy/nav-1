@@ -121,11 +121,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 var $siteList = $('.siteList');
 var $lastLi = $siteList.find('li.last');
 var x = localStorage.getItem('x');
-console.log('x');
-console.log(x);
 var xObject = JSON.parse(x);
-console.log('xObject');
-console.log(xObject);
 var hashMap = xObject || [{
   logo: 'A',
   url: 'https://www.acfun.cn'
@@ -141,7 +137,6 @@ var simplifyUrl = function simplifyUrl(url) {
 var render = function render() {
   $siteList.find('li:not(.last)').remove();
   hashMap.forEach(function (node, index) {
-    console.log(index);
     var $li = $("<li>\n        <div class=\"site\">\n            <div class=\"logo\">".concat(node.logo, "</div>\n            <div class=\"link\">").concat(simplifyUrl(node.url), "</div>\n            <div class=\"close\">\n             <svg class=\"icon\">\n             <use xlink:href=\"#icon-close\"></use>\n             </svg>\n            </div>\n        </div>\n    </li>")).insertBefore($lastLi);
     $li.on('click', function () {
       window.open(node.url);
@@ -161,13 +156,11 @@ var render = function render() {
 render();
 $('.addButton').on('click', function () {
   var url = window.prompt('请问你要添加的网址是什么？');
-  console.log(url);
 
   if (url.indexOf('http') !== 0) {
     url = 'https://' + url;
   }
 
-  console.log(url);
   hashMap.push({
     logo: simplifyUrl(url)[0].toUpperCase(),
     logoType: 'text',
@@ -218,7 +211,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60045" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54193" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

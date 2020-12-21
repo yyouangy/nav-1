@@ -16,6 +16,12 @@ body{background: #ffffff;}
         margin: 60px 0 50px;
     }
 }
+.gLogo{
+    border: 1px solid red;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .searchForm{
     display: flex;
     justify-content: space-between;
@@ -29,6 +35,11 @@ body{background: #ffffff;}
 }
 
 .searchForm > input{
+    outline: none;
+    font-size: 18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     width: 100%;
     margin-right: 10px;
     height: 48px;
@@ -39,12 +50,16 @@ body{background: #ffffff;}
     border-radius: 24px;
 }
 .searchForm  > button{
+    display: flex;
+    align-items:center;
+    justify-content:center;
     white-space: nowrap;
-    width: 24px;
-    height: 24px;
-    background: #2F6699;
-    border: 1px solid #DDDDDD;
+    width: 48px;
+    height: 48px;
     box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid red;
+
 }
 
 .globalMain{
@@ -54,10 +69,12 @@ body{background: #ffffff;}
 }
 
 .siteList{
+    height: 64px;
+    width: 64px;
+    border-radius: 64px;
     margin: 20px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 @media(min-width: 500px){
@@ -65,6 +82,9 @@ body{background: #ffffff;}
         margin-left: 0;
         margin-right: -25px;
         justify-content: flex-start;
+        width: 64px;
+        height: 64px;
+        border-radius: 64px;
     }
 }
 
@@ -78,25 +98,24 @@ body{background: #ffffff;}
     }
 
 .siteList .site{
-    width: 160px;
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    background: #F0F0F0;
+    border: none;
     padding: 20px 0;
     position: relative;
     cursor: pointer;
 }
 .siteList .site > .logo{
-    height: 64px;
-    width: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 64px;
+    font-size: 48px;
     text-transform: uppercase;
 }
 .siteList .site > .link{
@@ -114,14 +133,16 @@ body{background: #ffffff;}
     display: block;
 }
 .siteList .addButton{
-    border: 1px solid #DDDDDD;
-    width: 160px;
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px 0;
-    background: #ffffff
+    background: #F0F0F0;
 }
 .siteList .addButton .icon{
     width: 56px;

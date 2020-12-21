@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0941b4c6-0895-46d9-a7b1-f633cc950c37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/googleLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/65/2f4cae17dd7369c0dd90513474d481.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/65/2f4cae17dd7369c0dd90513474d481.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/b3/e089195e51d19c5a93339466bd6413.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b3/e089195e51d19c5a93339466bd6413.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/b8/47bb1127f0f4c8d6c5af0342782bcf.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b8/47bb1127f0f4c8d6c5af0342782bcf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/d3/5319789f78bfae78f8ac8b63390f7d.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/d3/5319789f78bfae78f8ac8b63390f7d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ea/860ab0786f36db6faef6c77ad429e4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/ea/860ab0786f36db6faef6c77ad429e4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/f2/0413287fbb806eec08159e08c91807.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/f2/0413287fbb806eec08159e08c91807.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/fc/2ba7364c90263060008ebac44dff99.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/fc/2ba7364c90263060008ebac44dff99.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.94a4fee1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.94a4fee1.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.a0947845.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.a0947845.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.2a96d9f3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.2a96d9f3.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/searchIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +71,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +86,14 @@
       <updated>1606983932499</updated>
       <workItem from="1606983933558" duration="244000" />
       <workItem from="1607052967633" duration="5000" />
-      <workItem from="1607053010022" duration="1959000" />
+      <workItem from="1607053010022" duration="8567000" />
+      <workItem from="1607070203703" duration="2163000" />
+      <workItem from="1607079358643" duration="1028000" />
+      <workItem from="1607243028081" duration="58000" />
+      <workItem from="1607243103821" duration="1168000" />
+      <workItem from="1607488987206" duration="17000" />
+      <workItem from="1607698325937" duration="333000" />
+      <workItem from="1608557477706" duration="12000" />
     </task>
     <servers />
   </component>
@@ -61,15 +110,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="266" y="269" key="#Inspections" timestamp="1607053299186">
+    <state x="266" y="269" key="#Inspections" timestamp="1607068211436">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
-    <state x="266" y="269" key="#Inspections/0.23.2560.1361@0.23.2560.1361" timestamp="1607053299186" />
-    <state x="297" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1607056488363">
+    <state x="266" y="269" key="#Inspections/0.23.2560.1361@0.23.2560.1361" timestamp="1607068211436" />
+    <state x="333" y="339" width="691" height="522" key="find.popup" timestamp="1607067142786">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
-    <state x="297" y="274" width="670" height="676" key="search.everywhere.popup/0.23.2560.1361@0.23.2560.1361" timestamp="1607056488363" />
+    <state x="333" y="339" width="691" height="522" key="find.popup/0.23.2560.1361@0.23.2560.1361" timestamp="1607067142786" />
+    <state x="297" y="275" width="670" height="679" key="search.everywhere.popup" timestamp="1607698647976">
+      <screen x="0" y="23" width="2560" height="1367" />
+    </state>
+    <state x="297" y="274" width="670" height="676" key="search.everywhere.popup/0.23.2560.1361@0.23.2560.1361" timestamp="1607067146989" />
+    <state x="297" y="275" width="670" height="679" key="search.everywhere.popup/0.23.2560.1367@0.23.2560.1367" timestamp="1607698647976" />
   </component>
 </project>

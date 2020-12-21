@@ -22,28 +22,38 @@ body{background: #ffffff;}
 }
 @media (min-width:500px){
     .searchForm{
-        max-width: 400px;
+        max-width: 600px;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
 .searchForm > input{
+    outline: none;
+    font-size: 18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     width: 100%;
     margin-right: 10px;
-    height: 40px;
+    height: 48px;
     padding: 0 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 4px 4px 10px rgba(60, 60, 60, 0.25);
+    border-radius: 24px;
 }
 .searchForm  > button{
+    display: flex;
+    align-items:center;
+    justify-content:center;
     white-space: nowrap;
-    padding: 0 28px;
-    border-radius: 4px;
-    background: #2F6699;
-    border: 1px solid #DDDDDD;
-    color: white;
-    font-size: 16px;
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid red;
+
 }
 
 .globalMain{
@@ -53,10 +63,12 @@ body{background: #ffffff;}
 }
 
 .siteList{
+    height: 64px;
+    width: 64px;
+    border-radius: 64px;
     margin: 20px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 @media(min-width: 500px){
@@ -64,6 +76,9 @@ body{background: #ffffff;}
         margin-left: 0;
         margin-right: -25px;
         justify-content: flex-start;
+        width: 64px;
+        height: 64px;
+        border-radius: 64px;
     }
 }
 
@@ -77,25 +92,24 @@ body{background: #ffffff;}
     }
 
 .siteList .site{
-    width: 160px;
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    background: #F0F0F0;
+    border: none;
     padding: 20px 0;
     position: relative;
     cursor: pointer;
 }
 .siteList .site > .logo{
-    height: 64px;
-    width: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 64px;
+    font-size: 48px;
     text-transform: uppercase;
 }
 .siteList .site > .link{
@@ -113,14 +127,16 @@ body{background: #ffffff;}
     display: block;
 }
 .siteList .addButton{
-    border: 1px solid #DDDDDD;
-    width: 160px;
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px 0;
-    background: #ffffff
+    background: #F0F0F0;
 }
 .siteList .addButton .icon{
     width: 56px;
@@ -138,4 +154,4 @@ body{background: #ffffff;}
     align-items: center;
 }
 
-/*# sourceMappingURL=style.2a96d9f3.css.map */
+/*# sourceMappingURL=style.04bf8be2.css.map */

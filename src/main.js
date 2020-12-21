@@ -1,11 +1,7 @@
 const $siteList = $('.siteList')
 const $lastLi = $siteList.find('li.last')
 const x = localStorage.getItem('x')
-console.log('x')
-console.log(x)
 const xObject = JSON.parse(x)
-console.log('xObject')
-console.log(xObject)
 const hashMap = xObject || [
     { logo: 'A', url: 'https://www.acfun.cn'},
     { logo: 'B', url: 'https://www.bilibili.com'},
@@ -20,7 +16,6 @@ const simplifyUrl=(url)=>{
 const render = ()=>{
     $siteList.find('li:not(.last)').remove()
     hashMap.forEach((node, index)=>{
-        console.log(index)
         const $li = $(`<li>
         <div class="site">
             <div class="logo">${node.logo}</div>
@@ -50,11 +45,9 @@ render()
 $('.addButton')
   .on('click',()=>{
       let url = window.prompt('请问你要添加的网址是什么？')
-      console.log(url)
       if(url.indexOf('http')!==0){
           url = 'https://' + url
       }
-      console.log(url)
       hashMap.push({
           logo: simplifyUrl(url)[0].toUpperCase(), 
           logoType: 'text',
