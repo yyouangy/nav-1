@@ -20,10 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0941b4c6-0895-46d9-a7b1-f633cc950c37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/lLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/65/2f4cae17dd7369c0dd90513474d481.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/65/2f4cae17dd7369c0dd90513474d481.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/b3/e089195e51d19c5a93339466bd6413.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b3/e089195e51d19c5a93339466bd6413.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/b8/47bb1127f0f4c8d6c5af0342782bcf.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b8/47bb1127f0f4c8d6c5af0342782bcf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/googleLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,6 +65,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
@@ -73,7 +90,8 @@
       <workItem from="1607488987206" duration="17000" />
       <workItem from="1607698325937" duration="333000" />
       <workItem from="1608557477706" duration="12000" />
-      <workItem from="1608557787608" duration="188000" />
+      <workItem from="1608557787608" duration="1365000" />
+      <workItem from="1608615547954" duration="726000" />
     </task>
     <servers />
   </component>
@@ -97,6 +115,10 @@
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
     <state x="266" y="269" key="#Inspections/0.23.2560.1361@0.23.2560.1361" timestamp="1607068211436" />
+    <state x="337" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608616116094">
+      <screen x="0" y="23" width="2560" height="1370" />
+    </state>
+    <state x="337" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1370@0.23.2560.1370" timestamp="1608616116094" />
     <state x="333" y="339" width="691" height="522" key="find.popup" timestamp="1607067142786">
       <screen x="0" y="23" width="2560" height="1361" />
     </state>
