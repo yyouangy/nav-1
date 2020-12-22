@@ -20,21 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0941b4c6-0895-46d9-a7b1-f633cc950c37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/lLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/65/2f4cae17dd7369c0dd90513474d481.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/65/2f4cae17dd7369c0dd90513474d481.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/b3/e089195e51d19c5a93339466bd6413.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b3/e089195e51d19c5a93339466bd6413.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/b8/47bb1127f0f4c8d6c5af0342782bcf.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b8/47bb1127f0f4c8d6c5af0342782bcf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/googleLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bilibili.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
@@ -91,7 +84,7 @@
       <workItem from="1607698325937" duration="333000" />
       <workItem from="1608557477706" duration="12000" />
       <workItem from="1608557787608" duration="1365000" />
-      <workItem from="1608615547954" duration="726000" />
+      <workItem from="1608615547954" duration="7115000" />
     </task>
     <servers />
   </component>
