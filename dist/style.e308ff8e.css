@@ -146,11 +146,11 @@ body{
 .siteList .addButton .icon{
     width: 56px;
     height: 56px;
-    margin: 20px 10px -10px 10px;
+    margin: 20px 10px 0px 10px;
 }
 .siteList .addButton .text{
     font-size: 14px;
-    padding: 10px 0 0 0;
+    /*padding: 10px 0 0 0;*/
     margin: 10px 0;
 }
 .siteList .addButton .icon-wrapper{

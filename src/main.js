@@ -3,8 +3,11 @@ const $lastLi = $siteList.find('li.last')
 const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 const hashMap = xObject || [
-    { logo: 'A', url: 'https://www.acfun.cn'},
-    { logo: 'B', url: 'https://www.bilibili.com'},
+    { logo: 'A', url: 'https://www.amazon.com'},
+    { logo: 'B', url: 'https://www.bing.com'},
+    { logo: 'C', url: 'https://www.csdn.net'},
+    { logo: 'D', url: 'https://www.douban.com'},
+    { logo: 'G', url: 'github.com'},
 ];
 const simplifyUrl=(url)=>{
     return url.replace('https://','')
@@ -61,11 +64,11 @@ window.onbeforeunload = ()=>{
     localStorage.setItem('x',string)
  }
 
- $(document).on('keypress', (e)=>{
-    const {key} = e
-    for(let i=0; i<hashMap.length; i++){
-        if(hashMap[i].logo.toLowerCase() === key){
-            window.open(hashMap[i].url)
-        }
-    }
- })
+ // $(document).on('keypress', (e)=>{
+ //    const {key} = e
+ //    for(let i=0; i<hashMap.length; i++){
+ //        if(hashMap[i].logo.toLowerCase() === key){
+ //            window.open(hashMap[i].url)
+ //        }
+ //    }
+ // })

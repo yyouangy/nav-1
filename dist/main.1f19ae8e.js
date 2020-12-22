@@ -124,10 +124,19 @@ var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
   logo: 'A',
-  url: 'https://www.acfun.cn'
+  url: 'https://www.amazon.com'
 }, {
   logo: 'B',
-  url: 'https://www.bilibili.com'
+  url: 'https://www.bing.com'
+}, {
+  logo: 'C',
+  url: 'https://www.csdn.net'
+}, {
+  logo: 'D',
+  url: 'https://www.douban.com'
+}, {
+  logo: 'G',
+  url: 'github.com'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -172,17 +181,14 @@ $('.addButton').on('click', function () {
 window.onbeforeunload = function () {
   var string = JSON.stringify(hashMap);
   localStorage.setItem('x', string);
-};
-
-$(document).on('keypress', function (e) {
-  var key = e.key;
-
-  for (var i = 0; i < hashMap.length; i++) {
-    if (hashMap[i].logo.toLowerCase() === key) {
-      window.open(hashMap[i].url);
-    }
-  }
-});
+}; // $(document).on('keypress', (e)=>{
+//    const {key} = e
+//    for(let i=0; i<hashMap.length; i++){
+//        if(hashMap[i].logo.toLowerCase() === key){
+//            window.open(hashMap[i].url)
+//        }
+//    }
+// })
 },{}],"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -211,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51187" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58089" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

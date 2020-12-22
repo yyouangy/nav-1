@@ -1,1 +1,6 @@
-{"id":"images/bilibili.jpg","dependencies":[],"generated":{"js":"module.exports = \"/157aed2587c814fc1a1ae36a8aa50c53.jpg\";"},"sourceMaps":null,"error":null,"hash":"49ec6bbe1daafa4fe04be2cfcc906eb2","cacheData":{"env":{}}}
+{"id":"images/bilibili.jpg",
+  "dependencies":[],
+  "generated":{"js":"module.exports = \"/157aed2587c814fc1a1ae36a8aa50c53.jpg\";"},
+  "sourceMaps":null,
+  "error":null,"hash":"49ec6bbe1daafa4fe04be2cfcc906eb2",
+  "cacheData":{"env":{}}}
