@@ -94,7 +94,6 @@ body{
 /*    }*/
 
 .siteList .site{
-    border: 1px solid purple;
     width: 64px;
     height: 64px;
     border-radius: 64px;
@@ -103,7 +102,7 @@ body{
     align-items:center;
     flex-direction: column;
     background: #F0F0F0;
-    /*border: none;*/
+    border: none;
     /*padding: 20px 0;*/
     margin: 0 28px 60px 20px;
     position: relative;
@@ -135,8 +134,7 @@ body{
     width: 64px;
     height: 64px;
     border-radius: 64px;
-    /*border: none;*/
-    border: 1px solid orange;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,10 +146,12 @@ body{
 .siteList .addButton .icon{
     width: 56px;
     height: 56px;
+    margin: 20px 10px -10px 10px;
 }
 .siteList .addButton .text{
     font-size: 14px;
-    margin-top: 4px;
+    padding: 10px 0 0 0;
+    margin: 10px 0;
 }
 .siteList .addButton .icon-wrapper{
     width: 64px;
