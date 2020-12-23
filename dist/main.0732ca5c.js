@@ -124,10 +124,19 @@ var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
   logo: 'A',
-  url: 'https://www.acfun.cn'
+  url: 'https://www.amazon.com'
 }, {
   logo: 'B',
-  url: 'https://www.bilibili.com'
+  url: 'https://www.bing.com'
+}, {
+  logo: 'C',
+  url: 'https://www.csdn.net'
+}, {
+  logo: 'D',
+  url: 'https://www.douban.com'
+}, {
+  logo: 'G',
+  url: 'https://www.github.com'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -155,7 +164,7 @@ var render = function render() {
 
 render();
 $('.addButton').on('click', function () {
-  var url = window.prompt('请问你要添加的网址是什么？');
+  var url = window.prompt('请输入你要添加的网站地址');
 
   if (url.indexOf('http') !== 0) {
     url = 'https://' + url;
@@ -172,16 +181,16 @@ $('.addButton').on('click', function () {
 window.onbeforeunload = function () {
   var string = JSON.stringify(hashMap);
   localStorage.setItem('x', string);
-};
+}; // $(document).on('keypress', (e)=>{
+//    const {key} = e
+//    for(let i=0; i<hashMap.length; i++){
+//        if(hashMap[i].logo.toLowerCase() === key){
+//            window.open(hashMap[i].url)
+//        }
+//    }
+// })
 
-$(document).on('keypress', function (e) {
-  var key = e.key;
 
-  for (var i = 0; i < hashMap.length; i++) {
-    if (hashMap[i].logo.toLowerCase() === key) {
-      window.open(hashMap[i].url);
-    }
-  }
-});
+$("#lLogo").wrap("<a href='https://github.com/ST2020wa/nav-1'></a>");
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.d1370902.js.map
+//# sourceMappingURL=main.0732ca5c.js.map
