@@ -136,7 +136,7 @@ var hashMap = xObject || [{
   url: 'https://www.douban.com'
 }, {
   logo: 'G',
-  url: 'github.com'
+  url: 'https://www.github.com'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -164,7 +164,7 @@ var render = function render() {
 
 render();
 $('.addButton').on('click', function () {
-  var url = window.prompt('请问你要添加的网址是什么？');
+  var url = window.prompt('请输入你要添加的网站地址');
 
   if (url.indexOf('http') !== 0) {
     url = 'https://' + url;
@@ -189,6 +189,9 @@ window.onbeforeunload = function () {
 //        }
 //    }
 // })
+
+
+$("#lLogo").wrap("<a href='https://github.com/ST2020wa/nav-1'></a>");
 },{}],"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -217,7 +220,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60094" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50742" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

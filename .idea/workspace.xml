@@ -19,7 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0941b4c6-0895-46d9-a7b1-f633cc950c37" name="Default Changelist" comment="" />
+    <list default="true" id="0941b4c6-0895-46d9-a7b1-f633cc950c37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/b3/e089195e51d19c5a93339466bd6413.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b3/e089195e51d19c5a93339466bd6413.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/b8/47bb1127f0f4c8d6c5af0342782bcf.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b8/47bb1127f0f4c8d6c5af0342782bcf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ea/860ab0786f36db6faef6c77ad429e4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/ea/860ab0786f36db6faef6c77ad429e4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +88,8 @@
       <workItem from="1607698325937" duration="333000" />
       <workItem from="1608557477706" duration="12000" />
       <workItem from="1608557787608" duration="1365000" />
-      <workItem from="1608615547954" duration="14435000" />
+      <workItem from="1608615547954" duration="14774000" />
+      <workItem from="1608696127285" duration="2799000" />
     </task>
     <servers />
   </component>
@@ -101,11 +117,11 @@
       <screen x="0" y="23" width="2560" height="1370" />
     </state>
     <state x="337" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1370@0.23.2560.1370" timestamp="1608616116094" />
-    <state x="282" y="269" width="808" height="756" key="find.popup" timestamp="1608643991601">
+    <state x="282" y="269" width="808" height="756" key="find.popup" timestamp="1608696966339">
       <screen x="0" y="23" width="2560" height="1370" />
     </state>
     <state x="333" y="339" width="691" height="522" key="find.popup/0.23.2560.1361@0.23.2560.1361" timestamp="1607067142786" />
-    <state x="282" y="269" width="808" height="756" key="find.popup/0.23.2560.1370@0.23.2560.1370" timestamp="1608643991601" />
+    <state x="282" y="269" width="808" height="756" key="find.popup/0.23.2560.1370@0.23.2560.1370" timestamp="1608696966339" />
     <state x="297" y="276" width="670" height="681" key="search.everywhere.popup" timestamp="1608644667461">
       <screen x="0" y="23" width="2560" height="1370" />
     </state>

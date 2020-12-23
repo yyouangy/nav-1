@@ -42,6 +42,9 @@ body{
     justify-content: center;
     margin: 140px auto 36px;
 }
+.lLogo:hover{
+    cursor: pointer;
+}
 .searchForm{
     min-width: 300px;
     max-width: 600px;
@@ -49,7 +52,6 @@ body{
     justify-content: space-between;
     margin: 16px auto;
 }
-
 
 .searchForm > input{
     outline: none;

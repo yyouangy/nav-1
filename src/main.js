@@ -7,7 +7,7 @@ const hashMap = xObject || [
     { logo: 'B', url: 'https://www.bing.com'},
     { logo: 'C', url: 'https://www.csdn.net'},
     { logo: 'D', url: 'https://www.douban.com'},
-    { logo: 'G', url: 'github.com'},
+    { logo: 'G', url: 'https://www.github.com'},
 ];
 const simplifyUrl=(url)=>{
     return url.replace('https://','')
@@ -47,7 +47,7 @@ render()
 
 $('.addButton')
   .on('click',()=>{
-      let url = window.prompt('请问你要添加的网址是什么？')
+      let url = window.prompt('请输入你要添加的网站地址')
       if(url.indexOf('http')!==0){
           url = 'https://' + url
       }
@@ -72,3 +72,5 @@ window.onbeforeunload = ()=>{
  //        }
  //    }
  // })
+
+$("#lLogo").wrap("<a href='https://github.com/ST2020wa/nav-1'></a>");
